@@ -95,14 +95,12 @@ function App() {
             <div className="badge">International Event Anchor</div>
             <h1 className="hero-title">Commanding the <span>Stage.</span></h1>
             <p className="hero-subtitle">A magnetic voice and an undeniable presence. Elevating your most prestigious events into unforgettable experiences.</p>
+            <div className="glass-card hero-image-card">
+              <img src="/hero.jpeg" alt="Rekha Patel" className="hero-img" />
+            </div>
             <div className="hero-actions">
               <a href="#contact" className="btn-primary"><FaCalendarCheck /> Book Rekha</a>
               <a href="#showreel" className="btn-secondary"><FaPlay /> Watch Reel</a>
-            </div>
-          </motion.div>
-          <motion.div className="hero-image-container" initial={{ opacity: 0, scale: 0.9 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: 1 }}>
-            <div className="glass-card hero-image-card">
-              <img src="/hero.jpeg" alt="Rekha Patel" className="hero-img" />
             </div>
           </motion.div>
         </div>
